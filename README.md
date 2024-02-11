@@ -13,6 +13,25 @@ Welcome to the Click Game project! 🎮 This simple web-based game challenges pl
 3. Click the "Start" button and test your clicking skills!
 4. Your score and time remaining will be displayed in the game header.
 
+## Screenshots
+
+![Game Screenshot 1](/demo/screenshot1.png)
+*Caption for Screenshot 1*
+
+![Game Screenshot 2](/demo/screenshot2.png)
+*Caption for Screenshot 2*
+
+![Game Screenshot 3](/demo/screenshot3.png)
+*Caption for Screenshot 2*
+
+![Game Screenshot 4](/demo/screenshot4.png)
+*Caption for Screenshot 2*
+
+## Video Demo
+
+[![Click Game Demo](/demo/screenshot1.png)](/demo/demo.mp4)
+*Click to watch the video demo*
+
 ## Technologies Used
 - HTML5
 - CSS3
