@@ -29,8 +29,9 @@ Welcome to the Click Game project! 🎮 This simple web-based game challenges pl
 
 ## Video Demo
 
-[![Click Game Demo](url-to-your-video-thumbnail)](url-to-your-video)
+[![Click Game Demo](/demo/screenshot2.png)](/demo/demo.mp4)
 *Click to watch the video demo*
+
 
 ## Technologies Used
 - HTML5
