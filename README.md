@@ -16,20 +16,20 @@ Welcome to the Click Game project! 🎮 This simple web-based game challenges pl
 ## Screenshots
 
 ![Game Screenshot 1](/demo/screenshot1.png)
-*Caption for Screenshot 1*
+*First Screen*
 
 ![Game Screenshot 2](/demo/screenshot2.png)
-*Caption for Screenshot 2*
+*Rectangle Layout*
 
-![Game Screenshot 3](/demo/screenshot3.png)
-*Caption for Screenshot 2*
+![Game Screenshot 3](/demo/screenshot4.png)
+*Circle Layout*
 
-![Game Screenshot 4](/demo/screenshot4.png)
-*Caption for Screenshot 2*
+![Game Screenshot 4](/demo/screenshot3.png)
+*Final Score screen*
 
 ## Video Demo
 
-[![Click Game Demo][(/demo/screenshot4.png)](/demo/demo.mp4)
+[![Click Game Demo](url-to-your-video-thumbnail)](url-to-your-video)
 *Click to watch the video demo*
 
 ## Technologies Used
