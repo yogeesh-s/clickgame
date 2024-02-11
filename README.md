@@ -8,7 +8,7 @@ Welcome to the Click Game project! 🎮 This simple web-based game challenges pl
 - Make sure you have a modern web browser installed.
 
 ### Play the Game
-1. Access the game [here](#) [https://yogeesh-s.github.io/clickgame/].
+1. Access the game [here]((https://yogeesh-s.github.io/clickgame/)).
 2. Enter your name and choose a layout (rectangle or circle).
 3. Click the "Start" button and test your clicking skills!
 4. Your score and time remaining will be displayed in the game header.
@@ -43,7 +43,7 @@ If you'd like to contribute to the project, follow these steps:
 
 ## Connect with Me
 
-- LinkedIn: [https://www.linkedin.com/in/yogeesh-s/](#)
+- LinkedIn: [https://www.linkedin.com/in/yogeesh-s/](https://www.linkedin.com/in/yogeesh-s/)
 - Email: [yogeesh.sryd@gmail.com]
 
 ## License
