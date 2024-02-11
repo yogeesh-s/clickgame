@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        Click Game
+    </div>
+    <div class="game-header">
+        <div class="name"></div>
+        <div class="score"></div>
+        <div class="timer"></div>
+    </div>
+    <div class="container1">
+        <input class="input-name" type="text" placeholder="Enter your name...">
+        <select class="select-layout">
+            <option value="rectangle">Rectangle</option>
+            <option value="circle">Circle</option>
+        </select>
+        <button onclic="start()" class="btn-start">Start</button>
+    </div>
+    <div class="container2">
+        <div class="container2-row">
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+        </div>
+        <div class="container2-row">
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+        </div>
+        <div class="container2-row">
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+        </div>
+        <div class="container2-row">
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+            <div class="container2-col"></div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="container3-row">
+            <div id="circle1" class="container3-col1"></div>
+            <div id="circle2" class="container3-col2"></div>
+        </div>
+        <div class="container3-row">
+            <div id="circle3" class="container3-col3"></div>
+            <div id="circle4" class="container3-col4"></div>
+        </div>
+        <div class="circle"></div>
+        <div class="circle2"></div>
+    </div>
+    <div class="container4">
+        <div class="display-score"></div>
+        <div class="msg">Yogeesh S you played very well</div>
+        <br>
+        <button class="btn-playagain">Play again</button>
+        <button class="btn-home">Home</button>
+    </div>
+    <div class="footer">
+        <h3>Made with ❤️️ by <a href="https://github.com/yogeesh-s">Yogeesh S</a> </h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

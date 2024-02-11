@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(45deg, rgb(255, 42, 0), rgb(255, 181, 22), rgb(3, 198, 87));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(45deg, #4a0000, #2e4800, rgb(151, 0, 0), rgb(0, 91, 81), rgb(255, 34, 71));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container1 {
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid white;
+    border-radius: 12px;
+    box-shadow: 10px 10px 50px whitesmoke;
+    padding: 10px;
+    height: 400px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* display: none; */
+}
+
+.container2 {
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid white;
+    border-radius: 12px;
+    box-shadow: 10px 10px 50px whitesmoke;
+    padding: 10px;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.container2-row {
+    display: flex;
+}
+
+.container2-col {
+    background-color: #fff;
+    margin: 10px;
+    width: 85px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.container3 {
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid white;
+    border-radius: 12px;
+    box-shadow: 10px 10px 50px whitesmoke;
+    padding: 10px;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    display: none;
+    overflow: hidden;
+}
+
+.container3-row {
+    display: flex;
+}
+
+.container3-col1,
+.container3-col2,
+.container3-col3,
+.container3-col4 {
+    width: 190px;
+    height: 190px;
+}
+
+.container3-col1 {
+    background-color: white;
+    border-radius: 200px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.container3-col2 {
+    background-color: white;
+    border-radius: 0px 200px 0px 0px;
+    cursor: pointer;
+}
+
+.container3-col3 {
+    background-color: white;
+    border-radius: 0px 0px 0px 200px;
+    cursor: pointer;
+}
+
+.container3-col4 {
+    background-color: white;
+    border-radius: 0px 0px 200px 0px;
+    cursor: pointer;
+}
+
+.circle {
+    position: absolute;
+    background-image: linear-gradient(45deg, rgb(255, 174, 0), rgb(99, 179, 1));
+    border-radius: 12px;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    border-radius: 300px;
+}
+
+.circle2 {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    border-radius: 300px;
+}
+
+.container4 {
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid white;
+    border-radius: 12px;
+    box-shadow: 10px 10px 50px whitesmoke;
+    padding: 10px;
+    height: 300px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.input-name {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-width: 3px;
+    border-image: linear-gradient(45deg, rgb(255, 140, 0), rgb(163, 181, 2), rgb(3, 198, 87));
+    border-image-slice: 1;
+    box-shadow: 2px 2px 10px rgb(100, 242, 255);
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(92, 92, 92);
+    outline: none;
+    cursor: pointer;
+}
+
+.select-layout {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-width: 3px;
+    border-image: linear-gradient(45deg, rgb(255, 140, 0), rgb(163, 181, 2), rgb(3, 198, 87));
+    border-image-slice: 1;
+    box-shadow: 2px 2px 20px rgb(100, 242, 255);
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(92, 92, 92);
+    cursor: pointer;
+}
+
+.btn-start {
+    background-image: linear-gradient(45deg, rgb(161, 255, 127), rgb(25, 218, 0));
+    color: rgb(83, 77, 77);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 2px solid rgb(56, 255, 155);
+    /* text-shadow: 3px 3px 5px #000000; */
+    box-shadow: 1px 1px 10px rgb(100, 242, 255);
+    margin: 5px;
+    padding: 10px;
+    /* border-radius: 18px; */
+    width: 300px;
+    cursor: pointer;
+}
+
+.game-header {
+    font-size: 18px;
+    color: white;
+    background: rgba(250, 69, 49, 0.77);
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    box-shadow: 10px 10px 50px whitesmoke;
+    padding: 10px;
+    height: 90px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.name {
+    width: 40%;
+}
+
+.score {
+    width: 25%;
+}
+
+.time {
+    width: 25%;
+}
+
+.display-score,
+.msg {
+    font-size: 22px;
+    color: #484848;
+}
+
+.btn-playagain,
+.btn-home {
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 18px;
+    margin: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.btn-playagain {
+    background-image: linear-gradient(90deg, rgb(190, 255, 49), rgb(71, 255, 197));
+    color: rgb(56, 56, 56);
+    box-shadow: 5px 5px 30px rgb(0, 224, 52);
+    border: 2px solid rgb(0, 224, 52);
+    cursor: pointer;
+}
+
+.btn-home {
+    background-image: linear-gradient(90deg, rgb(1, 163, 199), rgb(0, 122, 108));
+    color: white;
+    box-shadow: 5px 5px 30px rgb(37, 255, 226);
+    border: 2px solid rgb(37, 255, 226);
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fe0000;
+}
+
+
+@media screen and (max-width: 600px) {
+    .body {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .game-header {
+        width: 340px;
+    }
+
+    .container2-col {
+        width: 65px;
+        height: 65px;
+    }
+
+    .container1,
+    .container2,
+    .container3,
+    .container4 {
+        width: 340px;
+        height: 340px;
+    }
+
+    .container3-col1,
+    .container3-col2,
+    .container3-col3,
+    .container3-col4 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .circle {
+        width: 220px;
+        height: 220px
+    }
+
+    .circle2 {
+        width: 220px;
+        height: 220px
+    }
+
+    .display-score,
+    .msg {
+        font-size: 18px;
+    }
+
+    .footer {
+        font-size: 18px;
+    }
+}
