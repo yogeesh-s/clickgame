@@ -29,7 +29,7 @@ Welcome to the Click Game project! 🎮 This simple web-based game challenges pl
 
 ## Video Demo
 
-[![Click Game Demo](/demo/demo.mp4)
+[![Click Game Demo][(/demo/screenshot4.png)](/demo/demo.mp4)
 *Click to watch the video demo*
 
 ## Technologies Used
